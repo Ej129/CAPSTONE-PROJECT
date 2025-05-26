@@ -71,12 +71,12 @@ High (top 33%)
 
 | Model               | Accuracy (CV) | F1 Score (CV) |
 | ------------------- | ------------- | ------------- |
-| Logistic Regression | 0.79          | 0.78          |
-| Decision Tree       | 0.72          | 0.70          |
-| Random Forest       | 0.84          | 0.82          |
+| Logistic Regression | 0.82          | 0.82          |
+| Decision Tree       | 0.72          | 0.72          |
+| Random Forest       | 0.77          | 0.77          |
 
 
-Random Forest Classifier gave the best classification results.
+Logistic Regression gave the best classification results.
 
 ## Insights and Interpretations
 ### A. Top Features Affecting Performance
@@ -103,7 +103,7 @@ Students who studied more, maintained good health, and limited screen time consi
 Trends showed that high screen time correlated with lower scores, while more sleep and studying led to better outcomes.
 
 ## C. Model Performance
-* Linear Regression (regression) and Random Forest Classifier (classification) performed best.
+* Linear Regression (regression) and Logistic Regression (classification) performed best.
 
 * Tree-based models had higher accuracy but lower interpretability compared to linear models.
 
